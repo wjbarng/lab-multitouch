@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             MotionEvent.ACTION_DOWN //put finger down
             -> {
                 //Log.v(TAG, "finger down");
-
+                    
                 val xAnim = ObjectAnimator.ofFloat(view!!.ball, "x", x)
                 xAnim.duration = 1000
                 val yAnim = ObjectAnimator.ofFloat(view!!.ball, "y", y)
